@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #fefefe;
+}
+header {
+  background-color: #cceeff;
+  padding: 20px;
+}
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.project-grid img, section#skills img {
+  width: 200px;
+  height: auto;
+  margin: 10px;
+}
+section {
+  margin: 40px 0;
+}
